@@ -1,0 +1,6 @@
+// Default icon at ID 1 -- this is the ID BuildAndPatch.java overwrites in
+// Step 3. default.ico is bundled with this tutorial (a plain blue icon)
+// so target.exe is fully self-contained and builds without you needing to
+// supply anything -- the same idea as compiling a placeholder icon into a
+// native launcher stub before a user ever picks their own custom icon.
+1 ICON "default.ico"
